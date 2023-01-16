@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sistemasOperativos">
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>IOS</item>
+    </string-array>
+    <string-array name="idSistemaOperativo">
+        <item>1.Windows</item>
+        <item>2.Linux</item>
+        <item>3.IOS</item>
+    </string-array>
+</resources>

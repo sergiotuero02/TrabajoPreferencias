@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Unico">
+        <CheckBoxPreference android:key="Unico"
+            android:title="UNICO"
+            android:summary="Sistema operativo único">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Categoria 2">
+        <ListPreference android:key="Sistema Operativo"
+            android:title="Sistema Operativo"
+            android:summary="Elige tu sistema operativo"
+            android:dialogTitle="Sistema Operativo"
+            android:entries="@array/sistemasOperativos"
+            android:entryValues="@array/idSistemaOperativo">
+
+        </ListPreference>
+        <EditTextPreference android:key="Version"
+            android:title="Versión del sistema operativo"
+            android:summary="Introduzca la versión del Sistema Operativo"
+            android:dialogTitle="Versión">
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
